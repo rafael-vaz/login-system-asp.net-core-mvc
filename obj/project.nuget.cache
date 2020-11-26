@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "5BZ4rxapskDEyu+GHlddBNU5rutyuEXyJsYocqjZlIFy7s/nSbw6EZQq0HqO52Mu2bUIzXdh9azcbQjj3wHPYg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ferre\\Desktop\\login-system-asp.net-core-mvc\\CadastroUsuarioMVC.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ferre\\.nuget\\packages\\mysqlconnector\\1.1.0\\mysqlconnector.1.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

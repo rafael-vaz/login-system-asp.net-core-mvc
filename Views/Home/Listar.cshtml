@@ -1,0 +1,29 @@
+@using Microsoft.AspNetCore.Http
+@model IEnumerable<Usuario> 
+
+@{ViewData["Title"] = "Listagem";}
+
+<h2>Listagem de Usuários</h2>
+
+<table>
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Nome</th>
+        <th>Login</th>
+        <th>Senha</th>
+    </tr>
+    </thead>
+    <tbody>
+        @foreach(Usuario u in Model){
+        
+        <tr>
+        <td>@u.id</td>    
+        <td>@u.nome</td>
+        <td>@u.login</td>
+        <td>@u.senha</td>
+        </tr>
+
+        }
+    </tbody>
+</table>

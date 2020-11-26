@@ -1,0 +1,24 @@
+@using Microsoft.AspNetCore.Http
+@model Usuario
+@{
+
+    ViewData["Title"] = "Login";
+}
+
+<p id="msgConfirm">@ViewBag.Mensagem</p>
+
+<form asp-action="Login" method="POST">
+<p>
+<label asp-for="login">Login:</label>
+<input asp-for="login">
+</p>
+<p>
+<label asp-for="senha">Senha:</label>
+<input asp-for="senha" type="password">
+</p>
+<p>
+<input type="submit" value="Entrar">    
+</p>
+
+</form>
+

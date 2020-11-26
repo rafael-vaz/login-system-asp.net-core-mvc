@@ -1,0 +1,35 @@
+@using Microsoft.AspNetCore.Http
+@model Usuario
+
+@{
+    ViewData["Title"] = "Cadastro";
+}
+
+<p id="msgConfirm">@ViewBag.Mensagem</p>
+
+<h2>Cadastro de Usuário</h2>
+
+<form action="Cadastro" method="POST">
+
+    <p>
+        <label asp-for="nome">Nome:</label>
+        <input asp-for="nome">
+        
+    </p>
+    
+    <p>
+        <label asp-for="login">Login:</label>
+        <input asp-for="login">
+        
+    </p>
+
+    <p>
+        <label asp-for="senha">Senha:</label>
+        <input asp-for="senha">
+        
+    </p>
+
+    <p>
+        <input type="submit" value="Cadastrar">
+    </p>
+</form>
